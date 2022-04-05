@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #222;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    background-color: #F5FBEF;
+    color: #131200;
+}
+
+header {
+    padding: 1rem 1rem 0;
+    background-color: #465775;
+}
+
+header .logo {
+    display: block;
+    width: 152px;
+    margin: auto;
+}
+
+header .logo img {
+    margin: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+header nav ul li {
+    display: inline-block;
+    width: 32%;
+}
+
+header nav ul li a {
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.125s;
+    border-radius: 0.2rem;
+}
+
+header nav ul li a:hover {
+    background-color: #F5FBEF;
+    color: #EF476F;
+}
+
+h1 {
+    margin: 1rem;
+}
+
+p {
+    margin: 1rem;
+}
+
+#active {
+    color: white;
+}
+
+#active:hover {
+    color: #EF476F;
+}
+
+
+/* home page */
+
+.home_top_container {
+    background-color: #F5FBEF;
+}
+
+.main_body {
+    background-color: #465775;
+    color: white;
+    padding: 5rem 25% 5rem 5rem;
+    float: left;
+    border-radius: 0 0 10rem 0;
+    width: 80%;
+}
+
+.trends {
+    float: right;
+    padding: 1rem;
+    width: 20%;
+    /* color: white; */
+    background-color: #F5FBEF;
+}
+
+.trends ul {
+    list-style: circle;
+    padding: 1rem;
+}
+
+h3 {
+    margin: 1rem;
+}
+
+.latest {
+    clear: both;
+    padding: 5rem;
+}
+
+
+/* about page */
+
+.about_body div {
+    padding: 5rem 25% 5rem 5rem;
+}
+
+.about_body div:nth-child(even) {
+    background-color: #465775;
+    color: white;
+}
+
+
+/* contact page */
+
+#contact_form {
+    padding: 1rem;
+    border: #222 solid 1px;
+    width: 70%;
+    margin: 3rem auto;
+    border-radius: 0.5rem;
+    background-color: #465775;
+    color: white;
+}
+
+#form_col1,
+#form_col2 {
+    padding: 1rem;
+    border: none;
+    width: 50%;
+}
+
+#form_col1 input,
+#form_col2 input {
+    width: 80%;
+    line-height: 2em;
+}
+
+#form_col1 {
+    float: left;
+}
+
+#form_col2 {
+    float: right;
+}
+
+#address,
+#comment {
+    resize: none;
+}
+
+#submit {
+    clear: both;
+    margin: auto;
+    padding: 0.7rem 2rem;
+    display: block;
+    background-color: #EF476F;
+    border-radius: 0.4rem;
+    border: none;
+    color: #F5FBEF;
+}
+
+#submit:hover {
+    color: #EF476F;
+    background-color: white;
+}
